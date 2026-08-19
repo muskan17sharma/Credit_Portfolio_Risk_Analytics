@@ -2,7 +2,7 @@ in this there are column details
 there are 5 files 
 
 
-1. loan_portfolio.csv
+**1. loan_portfolio**
 loan_id – Unique identifier for each individual loan in the portfolio.
 origination_date – Date the loan was issued/disbursed to the borrower.
 maturity_date – Date on which the loan is scheduled to be fully repaid.
@@ -27,7 +27,10 @@ default_date – Date on which the loan defaulted (blank if not defaulted).
 survival_months – Number of months the loan remained active/performing.
 recovery_rate – Percentage of exposure recovered after default.
 loss_given_default – Actual loss incurred as a percentage of exposure after default (realized LGD).
-2. credit_ratings.csv
+
+
+
+**2. credit_ratings**
 issuer_id – Unique identifier for the borrower/issuer whose rating is tracked.
 sector – Industry sector to which the issuer belongs.
 year – Year in which the rating observation/transition is recorded.
@@ -37,7 +40,10 @@ upgraded – Flag (0/1) indicating if the issuer's rating improved during the ye
 downgraded – Flag (0/1) indicating if the issuer's rating worsened during the year.
 defaulted – Flag (0/1) indicating if the issuer defaulted during the year.
 notches_moved – Number of rating notches the issuer moved up or down (e.g., A→BBB = -1 notch).
-3. vintage_analysis.csv
+
+
+
+**3. vintage_analysis**
 vintage – The origination quarter/cohort of loans being tracked (e.g., 2015Q1).
 months_on_books – Number of months since the vintage cohort originated.
 n_loans_originated – Total number of loans originated in that vintage cohort.
@@ -47,7 +53,10 @@ cumulative_default_rate – Total percentage of the cohort that has defaulted si
 marginal_default_rate – Percentage of the cohort that defaulted in this specific month only.
 avg_pd_at_origination – Average probability of default assigned to the cohort at loan issuance.
 avg_credit_score – Average borrower credit score for the cohort.
-4. portfolio_metrics.csv
+
+
+
+**4. portfolio_metrics**
 date – The month/period for which portfolio-level metrics are calculated.
 n_active_loans – Number of loans active in the portfolio on that date.
 total_ead – Total Exposure at Default across the entire portfolio.
