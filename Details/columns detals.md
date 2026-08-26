@@ -1,5 +1,4 @@
-in this there are column details
-there are 5 files 
+file-wise column details  
 
 
 **1. loan_portfolio**
