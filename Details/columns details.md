@@ -42,7 +42,7 @@ notches_moved – Number of rating notches the issuer moved up or down (e.g., A�
 
 
 
-**3. vintage_analysis**
+## 3. vintage_analysis
 vintage – The origination quarter/cohort of loans being tracked (e.g., 2015Q1).
 months_on_books – Number of months since the vintage cohort originated.
 n_loans_originated – Total number of loans originated in that vintage cohort.
