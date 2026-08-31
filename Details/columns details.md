@@ -1,7 +1,7 @@
 # file-wise column details  
 
 
-**1. loan_portfolio**
+## 1. loan_portfolio
 loan_id – Unique identifier for each individual loan in the portfolio.
 origination_date – Date the loan was issued/disbursed to the borrower.
 maturity_date – Date on which the loan is scheduled to be fully repaid.
