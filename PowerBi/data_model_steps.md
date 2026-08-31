@@ -95,7 +95,8 @@ Same many-to-many issue showed up when `sector` was used to connect `loan_portfo
 
 ## 6. Final Model
 
-A clean star schema: three dimension tables (`Dim_Date`, `Dim_Vintage`, `Dim_Sector`), five fact tables, all relationships one-to-many and single-direction. No many-to-many relationships, no bidirectional cross-filtering.
+A clean star schema: **three dimension tables** (`Dim_Date`, `Dim_Vintage`, `Dim_Sector`),
+                     **five fact tables**, all relationships one-to-many and single-direction. No many-to-many relationships, no bidirectional cross-filtering.
 
 ```
 Dim_Date ──────┬── loan_portfolio (origination_date)
