@@ -55,7 +55,7 @@ avg_credit_score – Average borrower credit score for the cohort.
 
 
 
-**4. portfolio_metrics**
+## 4. portfolio_metrics
 date – The month/period for which portfolio-level metrics are calculated.
 n_active_loans – Number of loans active in the portfolio on that date.
 total_ead – Total Exposure at Default across the entire portfolio.
