@@ -75,7 +75,7 @@ credit_spread_bps – Credit spread (in basis points) reflecting market credit r
 
 
 
-**5. macro_stress_scenarios**
+## 5. macro_stress_scenarios
 scenario – Name of the stress scenario being modeled (e.g., baseline, recession).
 gdp_shock_pp – Shock applied to GDP growth, in percentage points, under this scenario.
 unemp_shock_pp – Shock applied to unemployment rate, in percentage points, under this scenario.
