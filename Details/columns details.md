@@ -29,7 +29,7 @@ loss_given_default – Actual loss incurred as a percentage of exposure after de
 
 
 
-**2. credit_ratings**
+## 2. credit_ratings
 issuer_id – Unique identifier for the borrower/issuer whose rating is tracked.
 sector – Industry sector to which the issuer belongs.
 year – Year in which the rating observation/transition is recorded.
