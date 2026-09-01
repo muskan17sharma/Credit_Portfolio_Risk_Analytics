@@ -93,7 +93,25 @@ Same many-to-many issue showed up when `sector` was used to connect `loan_portfo
 - `Dim_Sector[sector]` → `credit_ratings[sector]` — one-to-many, single-direction
 - `Dim_Sector[sector]` → `macro_stress_scenarios[sector]` — one-to-many, single-direction
 
-## 6. Final Model
+
+
+## 6. Create Calculated Measures
+
+Seven DAX measures were created to calculate the key portfolio and credit-risk metrics.
+
+
+| Measure | Purpose |
+|---|---|
+| **Total Loans** | Calculates the total number of loans in the portfolio |
+| **Total EAD** | Calculates the total Exposure at Default |
+| **Total EL** | Calculates the total Expected Loss |
+| **Total RWA** | Calculates the total Risk-Weighted Assets |
+| **Default Rate** | Measures the percentage of loans that have defaulted |
+| **Avg PD** | Calculates the average Probability of Default |
+| **Avg LGD** | Calculates the average Loss Given Default |
+
+
+## 7. Final Model
 
 A clean star schema: **three dimension tables** (`Dim_Date`, `Dim_Vintage`, `Dim_Sector`),
                      **five fact tables**, all relationships one-to-many and single-direction. No many-to-many relationships, no bidirectional cross-filtering.
