@@ -97,7 +97,7 @@ Same many-to-many issue showed up when `sector` was used to connect `loan_portfo
 
 ## 6. Create Calculated Measures
 
-Seven DAX measures were created to calculate the key portfolio and credit-risk metrics
+Seven DAX measures were created to calculate the key portfolio and credit-risk metrics.
 
 
 | Measure | Purpose |
