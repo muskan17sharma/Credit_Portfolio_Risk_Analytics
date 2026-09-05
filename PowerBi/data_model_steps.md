@@ -31,6 +31,7 @@ Created via DAX in Model view:
 
 ```
 Dim_Date = CALENDAR(DATE(2015,1,1), DATE(2024,12,31))
+
 ```
 
 Added helper columns (each added separately — DAX calculated columns can't be defined multiple at once in a single formula):
@@ -39,6 +40,7 @@ Added helper columns (each added separately — DAX calculated columns can't be 
 Year = YEAR(Dim_Date[Date])
 MonthName = FORMAT(Dim_Date[Date], "MMMM")
 Quarter = "Q" & FORMAT(Dim_Date[Date], "Q")
+
 ```
 
 Marked the table as a Date Table (Table tools → Mark as Date Table) so time-intelligence DAX functions work correctly.
