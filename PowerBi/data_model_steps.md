@@ -58,7 +58,6 @@ Marked the table as a Date Table (Table tools → Mark as Date Table) so time-in
 1. Selected `loan_portfolio` in Power Query → Add Column → Custom Column
 2. Name: `Vintage`
 3. Formula:
-
    ```
    Text.From(Date.Year([origination_date])) & "Q" & Text.From(Date.QuarterOfYear([origination_date]))
    ```
