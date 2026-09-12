@@ -71,7 +71,7 @@ Marked the table as a Date Table (Table tools → Mark as Date Table) so time-in
 2. Renamed the new query `Dim_Vintage`
 3. Kept only the `vintage` column (Remove Other Columns)
 4. Removed duplicates, leaving one row per unique vintage
-5. Closed & Applied
+5. Closed and Applied
 
 **Relationships:**
 - `Dim_Vintage[vintage]` → `loan_portfolio[Vintage]` — one-to-many, single-direction
