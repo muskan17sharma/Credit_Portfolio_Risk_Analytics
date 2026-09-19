@@ -89,6 +89,5 @@ Vintage = Text.From(Date.Year([origination_date])) & "Q" & Text.From(Date.Quarte
 ## Next Steps
 
 - [ ] Build DAX measures for portfolio-level PD, LGD, and EL rollups
-- [ ] Build vintage curve and rating migration visuals
 
 
