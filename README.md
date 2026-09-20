@@ -86,7 +86,6 @@ Vintage = Text.From(Date.Year([origination_date])) & "Q" & Text.From(Date.Quarte
 - Stressed vs. base-case PD/LGD under macroeconomic scenarios
 - Cumulative and marginal default rates by loan vintage
 
-## Next Steps
 
 
 
