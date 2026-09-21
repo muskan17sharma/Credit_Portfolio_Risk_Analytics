@@ -74,8 +74,8 @@ Vintage = Text.From(Date.Year([origination_date])) & "Q" & Text.From(Date.Quarte
 
 ## Tools Used
 
-- **Power BI Desktop** — data modeling, DAX measures, report visuals
-- **Power Query (M)** — dimension table creation, derived columns, data cleaning
+- *Power BI Desktop* — data modeling, DAX measures, report visuals
+- *Power Query (M)* — dimension table creation, derived columns, data cleaning
 
 ## Key Metrics Tracked
 
