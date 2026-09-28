@@ -58,9 +58,9 @@ The five source files do not share primary keys — they were captured at five d
 
 `loan_portfolio` did not originally carry a vintage tag, so one was derived in Power Query to match the `YYYYQ#` format used in `vintage_analysis`:
 
-```
-Vintage = Text.From(Date.Year([origination_date])) & "Q" & Text.From(Date.QuarterOfYear([origination_date]))
-```
+
+> Vintage = Text.From(Date.Year([origination_date])) & "Q" & Text.From(Date.QuarterOfYear([origination_date]))
+
 
 ### Relationship rules followed
 
