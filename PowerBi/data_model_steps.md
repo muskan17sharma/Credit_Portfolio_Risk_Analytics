@@ -29,8 +29,7 @@ Checked each table's key columns directly rather than guessing:
 
 Created via DAX in Model view:
 
-```
-Dim_Date = CALENDAR(DATE(2015,1,1), DATE(2024,12,31))
+> Dim_Date = CALENDAR(DATE(2015,1,1), DATE(2024,12,31))
 
 ```
 
