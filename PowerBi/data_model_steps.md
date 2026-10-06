@@ -2,7 +2,7 @@
 
 This document walks through how the data model for the Credit Risk Analytics dashboard was built, including the problems encountered and how each was resolved. It's meant to show the reasoning behind the model, not just the final result.
 
-## 1. Starting Point
+## 1.Starting Point
 
 Five CSV files were loaded into Power BI:
 
